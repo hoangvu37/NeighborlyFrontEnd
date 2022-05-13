@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/d1bce637-302b-493a-bcb1-8579e8e9cb6a/resourceGroups/0513demo/providers/Microsoft.Web/sites/NeighborlyFrontEnd",
     "appService.deploySubpath": "."
 }
