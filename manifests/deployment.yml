@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kubernete-5312"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kubernete-5312"
+  template:
+    metadata:
+      labels:
+        app: "kubernete-5312"
+    spec:
+      containers:
+        - name: "kubernete-5312"
+          image: "containerregistryproject2.azurecr.io/kubernete"
+          ports:
+          - containerPort: 80
